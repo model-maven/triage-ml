@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      TRIAGEML_MODEL_BACKEND: baseline
+      TRIAGEML_CONFIDENCE_THRESHOLD: "0.40"
+    restart: unless-stopped
