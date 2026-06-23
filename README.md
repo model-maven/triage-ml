@@ -4,7 +4,6 @@
 tickets** — so they get routed to the right team in milliseconds instead of
 waiting in a manual queue.
 
-[![CI](https://github.com/AmirEmami/triage-ml/actions/workflows/ci.yml/badge.svg)](https://github.com/AmirEmami/triage-ml/actions)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Code style: ruff](https://img.shields.io/badge/lint-ruff-orange)
